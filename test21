@@ -1,0 +1,2 @@
+curl -sO http://18.232.161.253:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://18.232.161.253:8080/ -secret ac71de765a5e95aea06904ab3748e438e216ee01a192d68759bc278c93df0cc0 -name node21 -webSocket -workDir "/home/jenkins"
